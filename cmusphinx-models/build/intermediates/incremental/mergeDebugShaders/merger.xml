@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\doori\android_workspace\SSM\SmartSchoolMirror\cmusphinx-models\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\Users\doori\android_workspace\SSM\SmartSchoolMirror\cmusphinx-models\src\debug\shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="D:\Android\AndroidProject\SmartSchoolMirror_for-screen\cmusphinx-models\src\main\shaders"/></dataSet><dataSet config="debug"><source path="D:\Android\AndroidProject\SmartSchoolMirror_for-screen\cmusphinx-models\src\debug\shaders"/></dataSet></merger>

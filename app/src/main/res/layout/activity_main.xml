@@ -5,45 +5,12 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="50dp"
+    android:paddingLeft="50dp"
+    android:paddingRight="130dp"
     android:background="@color/bg"
     tools:context="kr.hs.emirim.ssm.smartschoolmirror.MainActivity"
     tools:ignore="MissingPrefix">
 
-    <TextView
-        android:id="@+id/time_text"
-        android:textSize="70dp"
-        android:layout_gravity="right"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="#ffffff"
-        fontPath="NotoSansCJKkr-Regular.otf"
-        />
-
-    <TextView
-        android:id="@+id/date_text"
-        android:textSize="50dp"
-        android:layout_gravity="right"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="#ffffff"
-        fontPath="NotoSansCJKkr-Regular.otf"
-        />
-
-    <ImageView
-        android:id="@+id/weather_image"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_gravity="right"
-        />
-    <TextView
-        android:id="@+id/weather_text"
-        android:textSize="45dp"
-        android:layout_gravity="right"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="#ffffff"
-        fontPath="NotoSansCJKkr-Regular.otf"        />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -56,7 +23,7 @@
             >
             <TextView
                 android:id="@+id/school_food_title"
-                android:textSize="45dp"
+                android:textSize="30dp"
                 android:layout_gravity="left"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -65,7 +32,7 @@
                 fontPath="NotoSansCJKkr-Regular.otf"                />
             <TextView
                 android:id="@+id/school_food_text"
-                android:textSize="40dp"
+                android:textSize="25dp"
                 android:layout_gravity="left"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -78,9 +45,70 @@
             android:orientation="vertical"
             android:layout_alignParentRight="true">
             <TextView
+                android:id="@+id/time_text"
+                android:textSize="40dp"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                fontPath="NotoSansCJKkr-Regular.otf"
+                />
+
+            <TextView
+                android:id="@+id/date_text"
+                android:textSize="35dp"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                fontPath="NotoSansCJKkr-Regular.otf"
+                />
+
+            <ImageView
+                android:id="@+id/weather_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="right"
+                />
+            <TextView
+                android:id="@+id/weather_text"
+                android:textSize="20dp"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                fontPath="NotoSansCJKkr-Regular.otf"        />
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentLeft="true"
+            >
+            <ImageView
+                android:id="@+id/gif_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentRight="true">
+            <TextView
                 android:layout_gravity="right"
                 android:id="@+id/school_schedule_title"
-                android:textSize="45dp"
+                android:textSize="30dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#ffffff"
@@ -88,7 +116,7 @@
                 fontPath="NotoSansCJKkr-Regular.otf"/>
             <TextView
                 android:id="@+id/school_schedule_text"
-                android:textSize="40dp"
+                android:textSize="25dp"
                 android:layout_alignParentRight="true"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -97,6 +125,7 @@
                 fontPath="NotoSansCJKkr-Regular.otf"/>
 
         </LinearLayout>
+
 
 
     </RelativeLayout>
